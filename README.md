@@ -19,7 +19,7 @@ You can see the description of the challenge from this [link](https://you.s3.ir-
 Enter the following commands in your terminal:
 
 ```shell
-git clone https://github.com/imvahid/arvancloud-challenge.git
+git clone https://github.com/roozbehrahmani/stadio_challenage
 ```
 ```shell
 cd arvancloud-challenge
@@ -28,17 +28,14 @@ cd arvancloud-challenge
 make up
 ```
 ```shell
-make migrate
+make setup
 ```
 ```shell
-make seed
+make increase_coca
 ```
-
-You can see the database from [127.0.0.1:5000](http://127.0.0.1:5000) link.
-- Username: root
-- Password: password
-
-----------------
+```shell
+make increase_coffee
+```
 
 ### :book: List of APIs
 
@@ -50,13 +47,6 @@ make route
 
 Or use a `postman` file [postman_collection](arvancloud-challenge.postman_collection.json) is placed in the project to access the APIs.
 
-----------------
-
-### :tv: Demo video
-
-You can see original video from this [link](https://you.s3.ir-thr-at1.arvanstorage.ir/demo-video.webm)
-
-<p><img src="https://you.s3.ir-thr-at1.arvanstorage.ir/demo-video.gif?raw=true"></p>
 
 ----------------
 
@@ -64,22 +54,22 @@ You can see original video from this [link](https://you.s3.ir-thr-at1.arvanstora
 
 Complete list of commands to use when running the program:
 
-| Command      | Description                                                 |
-|--------------|-------------------------------------------------------------|
-| make up      | Create and start containers                                 |
-| make down    | Stop and remove resources                                   |
-| make build   | Build or rebuild services                                   |
-| make test    | Run `php artisan test` command on `arvancloud` container    |
-| make migrate | Run `php artisan migrate` command on `arvancloud` container |
-| make seed    | Run `php artisan test` command on `arvancloud` container    |
-| make mysql   | Go to `mysql` container's `bash`                            |
-| make redis   | Go to `redis` container's `bash`                            |
-| make env     | Show `.env` file from `arvancloud` container                |
-| make route   | Show `route list` from `arvancloud` container               |
+| Command      | Description                                                                |
+|--------------|----------------------------------------------------------------------------|
+| up      | Create and start containers                                                |
+| down    | Stop and remove resources                                                  |
+| build   | Build or rebuild services                                                  |
+| test    | Run `php artisan test` command on `stadio_challenage` container            |
+| setup | Run `php artisan redis:setup` command on `stadio_challenage` container     |
+| increase_coca    | Run `product:increase coca 100` command on `stadio_challenage` container   |
+| increase_coffee    | Run `product:increase coffee 100` command on `stadio_challenage` container |
+| redis   | Go to `redis` container's `bash`                                           |
+| env     | Show `.env` file from `stadio_challenage` container                        |
+| route   | Show `route list` from `stadio_challenage` container                       |
 
 ----------------
 
 ### :man_technologist: Author
 
-- [Github](https://github.com/imvahid)
-- [linkedin](https://www.linkedin.com/in/imvahid)
+- [Github](https://github.com/roozbehrahmani)
+- [linkedin](https://www.linkedin.com/in/roozbehrahmani)
