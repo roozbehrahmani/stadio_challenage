@@ -22,7 +22,7 @@ Enter the following commands in your terminal:
 git clone https://github.com/roozbehrahmani/stadio_challenage
 ```
 ```shell
-cd arvancloud-challenge
+cd stadio_challenage
 ```
 ```shell
 make up
