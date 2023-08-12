@@ -40,7 +40,7 @@ You can use the following command to view the list of APIs:
 make route
 ```
 
-Or use a `postman` file [postman_collection](Stadio Challange.postman_collection.json) is placed in the project to access the APIs.
+Or use a `postman` file [postman_collection](https://github.com/roozbehrahmani/stadio_challenage/blob/master/Stadio%20Challange.postman_collection.json) is placed in the project to access the APIs.
 
 
 ----------------
