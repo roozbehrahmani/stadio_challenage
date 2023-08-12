@@ -6,11 +6,6 @@
 <img src="https://img.shields.io/badge/-ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=E95420&labelColor=282828">
 </p>
 
-----------------
-
-###  Stadio challenge
-
-You can see the description of the challenge from this [link](https://you.s3.ir-thr-at1.arvanstorage.ir/backend-challenge.pdf)
 
 ----------------
 
